@@ -17,7 +17,7 @@ Install these prerequisites to follow along with the tutorial. See free video tu
 
 ## Step 2. Install dependencies
 ```
-$ cd E-Voting System Using Blockchain Technology
+$ cd Simple_e_voting
 $ npm install
 ```
 ## Step 3. Start Ganache
