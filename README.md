@@ -1,4 +1,4 @@
-
+# Election - DAPP
 
 
 
@@ -13,11 +13,11 @@ Install these prerequisites to follow along with the tutorial. See free video tu
 
 
 ## Step 1. Clone the project
-`git clone https://github.com/dappuniversity/election`
+`git clone https://github.com/Syedmoizulhassanshah/e-voting`
 
 ## Step 2. Install dependencies
 ```
-$ cd election
+$ cd E-Voting System Using Blockchain Technology
 $ npm install
 ```
 ## Step 3. Start Ganache
@@ -37,6 +37,3 @@ See free video tutorial for full explanation of these steps:
 ## Step 6. Run the Front End Application
 `$ npm run dev`
 Visit this URL in your browser: http://localhost:3000
-
-If you get stuck, please reference the free video tutorial.
-
