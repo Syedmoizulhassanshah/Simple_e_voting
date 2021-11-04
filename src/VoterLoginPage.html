@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Voter Login</title>
+  <link rel="shortcut icon" type="image/png" href="indexcss/Emblem_of_the_ECP.png">
+  <link rel="stylesheet" type="text/css" href="indexcss/indexstyle.css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" type="text/css" href="indexcss/loaderstyle.css">
+  <link rel="stylesheet" type="text/css" href="indexcss/loader.css">
+  <link rel="stylesheet" type="text/css" href="indexcss/background.css">
+
+  <script>
+    window.addEventListener('load', function () {
+
+      var loader = document.getElementById('preloader-container');
+      loader.style.opacity = '0';
+
+      loader.addEventListener('transitionend', function () {
+        loader.style.display = 'none';
+      })
+    });
+  </script>
+
+</head>
+
+<body>
+  <div id="preloader-container" class="">
+    <div id="preloader-content">
+      <div id="preloader-circle"></div>
+      <p>Loading...</p>
+    </div>
+  </div>
+  <div class="outer">
+    <div class="middle">
+      <div class="inner">
+        <img src="indexcss/Emblem_of_the_ECP.png" width="100px" height="100px">
+        <h3 style>Enter Credentials</h3>
+        <label>Voter EMAIL</label>
+        <input class="w3-input" type="text" placeholder="Enter Email " id="vcnic"></p>
+        <label>Unique Pin</label>
+        <input class="w3-input" type="password" placeholder="Enter Pin Number" id="vpin"></p>
+        <input type="button" class="button" value="Login" onclick="voterlogin()" style="width: 90%;">
+        <p id="err" style="color: red;  font-size:20px;"></p>
+        <p><b>NOTE: If you are new to this system click the button below to register yourself.</b></p><br><b><a
+            href="VoterRegistrationPage.html"><button> Register Here </button></a></b>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-auth.js"></script>
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyDpXs3Bou3Ww6kZ8-7czhTwS17xmlCu2c8",
+      authDomain: "evs-blockchain.firebaseapp.com",
+      projectId: "evs-blockchain",
+      storageBucket: "evs-blockchain.appspot.com",
+      messagingSenderId: "890026201422",
+      appId: "1:890026201422:web:6d281a42207658d93d0e1f",
+      measurementId: "G-TKV96TQ3CR"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+
+  </script>
+  <script type="text/javascript" src="js/firebaseauth.js"></script>
+
+
+</body>
+
+</html>
