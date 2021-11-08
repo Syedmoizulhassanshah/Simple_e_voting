@@ -37,3 +37,8 @@ See free video tutorial for full explanation of these steps:
 ## Step 6. Run the Front End Application
 `$ npm run dev`
 Visit this URL in your browser: http://localhost:3000
+
+## Live app link on Netlify
+https://optimistic-mahavira-eacefc.netlify.app
+
+But in order to interact with it you need install all the dependences.
