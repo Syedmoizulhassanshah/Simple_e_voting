@@ -40,4 +40,4 @@ Visit this URL in your browser: http://localhost:3000
 ## Live Application link (on Netlify)
 https://optimistic-mahavira-eacefc.netlify.app
 
-But in order to interact with it you need install all the dependences.
+But in order to interact with it you need to install all the dependences.
